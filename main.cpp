@@ -44,6 +44,7 @@ int main(int argc, char* argv[])
                 foundEmails.push_back({ inputLine, i });
     }
     cout << "Found emails : " << foundEmails.size();
+    foundEmailsPutter << "Found emails : " << foundEmails.size() << endl;
     for (int i = 0; i < foundEmails.size(); i++)
         foundEmailsPutter << foundEmails[i].email << " on position : " << foundEmails[i].position + 1 << endl;
     return 0;
