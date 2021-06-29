@@ -1,0 +1,2 @@
+This program searches  emails from txt file(see example). By email I mean line of the form "username@service.dm" without spaces and repeating . and @.
+There are some example.txt in this repository. It contains data on which i can test program. Result of the test is file foundEmails.txt
